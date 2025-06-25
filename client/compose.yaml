@@ -2,4 +2,4 @@ services:
   theapp:
     build: .
     ports:
-      - "5173:5173"
+      - "3001:3001"
