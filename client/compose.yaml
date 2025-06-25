@@ -1,5 +1,5 @@
 services:
-  web:
+  theapp:
     build: .
     ports:
       - "5173:5173"
