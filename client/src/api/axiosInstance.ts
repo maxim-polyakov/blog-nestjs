@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: import.meta.env.VITE_Base_Url, // Replace with your NestJS backend URL
+  baseURL: import.meta.env.VITE_Base_Url,
   timeout: 10000,
   headers: {
     'Content-Type': 'application/json',
